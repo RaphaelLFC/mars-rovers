@@ -16,7 +16,7 @@ As seguintes dependências são necessárias:
 
 ### Testes automatizados ###
 
-Acesse a pasta de seu projeto por linha de comando;
+Acesse a pasta do projeto por linha de comando;
 
 Execute os testes da aplicação com o comando:
 
@@ -25,7 +25,7 @@ Execute os testes da aplicação com o comando:
 
 ### Compilando e executando a aplicação ###
 
-Acesse a pasta de seu projeto por linha de comando;
+Acesse a pasta do projeto por linha de comando;
 
 Compile o projeto com o Maven:
 
@@ -50,6 +50,8 @@ left corner and facing North.
 In order to control a rover, NASA sends a simple estringi of letters. The possible letters are 'L', 'R'
 and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving from
 its current spot. 'M' means move forward one grid point, and maintain the same heading. 
+
+Assume that the square directly North from (x, y) is (x, y+1).
 
 ### Input ###
 
