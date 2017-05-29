@@ -51,7 +51,7 @@ In order to control a rover, NASA sends a simple estringi of letters. The possib
 and 'M'. 'L' and 'R' makes the rover spin 90 degrees left or right respectively, without moving from
 its current spot. 'M' means move forward one grid point, and maintain the same heading. 
 
-# Input #
+### Input ###
 
 The first line of input is the upper-right coordinates of the plateau, the lower-left coordinates
 are assumed to be 0,0.
@@ -63,11 +63,11 @@ x and y co-ordinates and the rover's orientation.
 Each rover will be finished sequentially, which means that the second rover mont. start to
 move until the first one has finished moving.
 
-# Output #
+### Output ###
 
 The output for each rover should be its final co-ordinates and heading.
 
-# Input and Output #
+### Input and Output ###
 
 Test Input:
 - 5 5
